@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Icecream Library</title>
+    <style>
+    body {background:url(pix/background.png);
+          color:#ff7bac;
+          font-family:"Gill Sans Light";font-weight;
+          align-items: center; }
+
+    .logo {margin-left: 35%;margin-top: 60px;height:246px; width:398px;
+           background:url(pix/logo.png);
+           animation: float 3s cubic-bezier(.45,.05,.55,.95) infinite}
+
+    @keyframes float{
+    0%{transform:translateY(6px)}
+    50%{transform:translateY(0px)}
+    100%{transform:translateY(6px)}
+    }
+
+    .chocolate {position: absolute;
+          left:10%; top:450px; height:144px; width:138px;
+          background:url(icecream/chocolate.png)}
+    .chocolate:hover{top:440px}
+
+    .vanilla  {position: absolute;
+          left:27%; top:450px; height:144px; width:138px;
+          background:url(icecream/vanilla.png)}
+    .vanilla:hover{top:440px}
+
+    .strawberry  {position: absolute;
+          left:44%; top:450px; height:144px; width:138px;
+          background:url(icecream/strawberry.png)}
+    .strawberry:hover{top:440px}
+
+    .coffee  {position: absolute;
+          left:61%; top:450px; height:144px; width:138px;
+          background:url(icecream/coffee.png)}
+    .coffee:hover{top:440px}
+
+    .matcha  {position: absolute;
+          left:78%; top:450px; height:144px; width:138px;
+          background:url(icecream/matcha.png)}
+    .matcha:hover{top:440px}
+
+    .banana  {position: absolute;
+          left:10%; top:700px; height:138px; width:191px;
+          background:url(icecream/banana.png)}
+    .banana:hover{top:670px}
+
+    .peach  {position: absolute;
+          left:32%; top:700px; height:138px; width:191px;
+          background:url(icecream/peach.png)}
+    .peach:hover{top:670px}
+
+    .mintchocochip  {position: absolute;
+          left:54%; top:700px; height:144px; width:138px;
+          background:url(icecream/mintchocochip.png)}
+    .mintchocochip:hover{top:670px}
+
+    .chocochip  {position: absolute;
+          left:76%; top:700px; height:138px; width:191px;
+          background:url(icecream/chocochip.png)}
+    .chocochip:hover{top:670px}
+
+    </style>
+  </head>
+
+  <body>
+    <div style="background:#ff7bac;color:white; height:24px;
+               text-align:center;font-size:18px;margin-top:px">
+               WELCOME to the Unofficial Encyclopedia of Icecream Flavors  </div>
+    <div class=logo> </div>
+    <div class=chocolate> </div>
+    <div class=vanilla> </div>
+    <div class=strawberry> </div>
+    <div class=coffee> </div>
+    <div class=matcha> </div>
+    <div class=banana> </div>
+    <div class=peach> </div>
+    <div class=mintchocochip> </div>
+    <div class=chocochip> </div>
+
+
+  </body>
+</html>
